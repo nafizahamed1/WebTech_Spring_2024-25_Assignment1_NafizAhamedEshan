@@ -68,9 +68,10 @@
             <tr>
                 <td>Employment Type</td>
                 <td>
-                <input type="checkbox" id="empType">
+                <input type="checkbox" name="empType" id="full">
                 <label for="fullTime">Full-Time</label>
-                <input type="checkbox" id="empType">
+                
+                <input type="checkbox" name="empType" id="part">
                 <label for="partTime">Part-Time</label>
                 </td>
                 <td><span id="checkboxError" style="color: red;"></span></td>
@@ -80,8 +81,11 @@
                 <td><button type="reset">Reset</button></td>
             </tr>
         </table>
-        <script src="register.js"></script>
+        <div id="display"></div>
+     
+        
 </form>
+<script src="register.js"></script>
 </body>
 </html>
 
