@@ -1,0 +1,65 @@
+body {
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+  
+  }
+  
+  h1, h2 {
+  
+    color: #4539b3;
+  }
+  
+  form {
+  
+    margin: auto;
+    width: 80%;
+    text-align: left;
+  
+}
+  
+
+
+  div {
+  
+    border: 1px dashed #00ffdd; 
+    background-color: aqua;
+  }
+  
+  
+  table {
+  
+    width: 90%;
+  
+    margin-bottom: 20px;
+  color: #8009e2;
+  }
+  
+
+  select {
+
+    width: 20%;
+  
+    padding: 4px;
+    margin: 4px 0;
+    color: #f39e01;
+  
+  }
+  
+  button {
+    background-color: #190dc0;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+  
+
+  th {
+    color: #d46524;
+  }
