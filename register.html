@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register New Employee</title>
+</head>
+<body>
+    <form action="submit.php" method="post" onsubmit="return validateForm()">
+        <table style="margin: auto;">
+            <tr>
+                
+                <td colspan="2">
+                    <h1>Employee Registration</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Employee ID</td>
+                <td><input type="text" id="employeeId"></td>
+                <td><span id="employeeIdError" style="color: red;"></span></td>
+            </tr>
+
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" id="fullName"></td>
+                <td><span id="fullNameError" style="color: red;"></span></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" id="email"></td>
+                <td><span id="emailError" style="color: red;"></span></td>
+
+            </tr>
+
+            <tr>
+                <td>Department</td>
+                <td>
+                    <select id="department">
+                        <option value="">Select</option>
+                        <option value="hr">HR</option>
+                        <option value="sales">Sales</option>
+                        <option value="it">IT</option>
+                        <option value="marketing">Marketing</option>
+                    </select>
+                </td>
+                <td><span id="departmentError" style="color: red;"></span></td>
+            </tr>
+            <tr>
+                <td>Joining Date</td>
+                <td><input type="date" id="JoiningDate"></td>
+                <td><span id="JoiningDateError" style="color: red;"></span></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </td>
+                <td><span id="genderError" style="color: red;"></span></td>
+            </tr>
+
+            <tr>
+                <td>Employment Type</td>
+                <td>
+                <input type="checkbox" id="fullTime">
+                <label for="fullTime">Full-Time</label>
+                <input type="checkbox" id="partTime">
+                <label for="partTime">Part-Time</label>
+                </td>
+                <td><span id="checkboxError" style="color: red;"></span></td>
+                </tr>
+            <tr>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+        </table>
+</form>
+</body>
+
+
+
+
+</html>

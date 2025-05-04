@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+</head>
+<body>
+    <form action="">
+
+        <table style="margin: auto;">
+            <tr>
+                
+                <td colspan="2">
+                    <h1>Sample Employee List</h1>
+                </td>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+                <th>Joining Date</th>
+                <th>Gender</th>
+                <th>Type</th>
+                <th>Actions</th>
+            </tr>
+            
+            <tr>
+                <td>EMP001</td>
+                <td>Eshan</td>
+                <td>eshan@gmail.com</td>
+                <td>HR</td>
+                <td>2022-01-01</td>
+                <td>Male</td>
+                <td>Full-Time</td>
+                <td>
+                    <button onclick="editRow(this)">Edit</button> 
+                    <button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+
+              <tr>
+                <td>EMP002</td>
+                <td>Nafiz</td>
+                <td>nafiz@gmail.com</td>
+                <td>IT</td>
+                <td>2021-02-01</td>
+                <td>Male</td>
+                <td>Full-Time</td>
+                <td>
+                    <button onclick="editRow(this)">Edit</button> 
+                    <button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+
+              <tr>
+                <td>EMP003</td>
+                <td>Ronaldo</td>
+                <td>ronaldo@gmail.com</td>
+                <td>marketing</td>
+                <td>2024-02-01</td>
+                <td>Male</td>
+                <td>Part-Time</td>
+                <td>
+                    <button onclick="editRow(this)">Edit</button> 
+                    <button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+
+              <tr>
+                <td>EMP004</td>
+                <td>Roji</td>
+                <td>roji@gmail.com</td>
+                <td>Sales</td>
+                <td>2024-06-01</td>
+                <td>Female</td>
+                <td>Part-Time</td>
+                <td>
+                    <button onclick="editRow(this)">Edit</button> 
+                    <button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+
+              <tr>
+                <td>EMP005</td>
+                <td>Rojina</td>
+                <td>rojina@gmail.com</td>
+                <td>Sales</td>
+                <td>2021-06-01</td>
+                <td>Female</td>
+                <td>Full-Time</td>
+                <td>
+                    <button onclick="editRow(this)">Edit</button> 
+                    <button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+
+
+
+
+        </table>
+        <br> <br><br><br><br>
+
+        
+        <table style="margin: auto;">
+            <tr>
+                
+                <td colspan="2">
+                    <h2>Edit Employee</h2>
+                </td>
+            </tr>
+            <tr> <td><input type="text" id="editId" placeholder="ID"></td></tr>
+            <tr><td><input type="text" id="editName" placeholder="Name"></td></tr>
+            <tr><td><input type="email" id="editEmail" placeholder="Email"></td></tr>
+            <tr><td><input type="text" id="editDept" placeholder="Department"></td></tr>
+            <tr><td><input type="date" id="editDate"></td></tr>
+            <tr><td><input type="text" id="editGender" placeholder="Gender"></td></tr>
+            <tr><td><input type="text" id="editType" placeholder="Employment Type"></tr>
+            <tr><td><button onclick="saveChanges()">Save Changes</button></td></tr>
+  
+  
+  
+  
+        </table>
+
+
+
+
+
+
+    </form>
+</body>
+
+
+
+
+</html>
