@@ -2,8 +2,10 @@
 <html>
 <head>
 <title>Register New Employee</title>
+<script src="register.js"></script>
 </head>
 <body>
+    <a href="index.html">Home Page</a>
     <form action="submit.php" method="post" onsubmit="return validateForm()">
         <table style="margin: auto;">
             <tr>
@@ -66,9 +68,9 @@
             <tr>
                 <td>Employment Type</td>
                 <td>
-                <input type="checkbox" id="fullTime">
+                <input type="checkbox" id="empType">
                 <label for="fullTime">Full-Time</label>
-                <input type="checkbox" id="partTime">
+                <input type="checkbox" id="empType">
                 <label for="partTime">Part-Time</label>
                 </td>
                 <td><span id="checkboxError" style="color: red;"></span></td>
@@ -80,8 +82,3 @@
         </table>
 </form>
 </body>
-
-
-
-
-</html>
